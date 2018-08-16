@@ -1,4 +1,4 @@
-#Email Service - A Restful API
+# Email Service - A Restful API
 
 
 An email service built using expressjs. It uses Mailgun and sendGrid to send out the services.
