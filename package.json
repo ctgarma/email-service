@@ -1,0 +1,26 @@
+{
+  "name": "cabcharge-email-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./app/utils/*.test.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Camilo Garma",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "expect": "^23.5.0",
+    "mocha": "^3.0.0",
+    "supertest": "^2.0.0"
+  },
+  "description": ""
+}
