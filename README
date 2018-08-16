@@ -1,8 +1,12 @@
-Email Service - A Restful API
+#Email Service - A Restful API
+
 
 An email service built using expressjs. It uses Mailgun and sendGrid to send out the services.
 
-The program uses an .env file please modify the values using your own port #, domain name and API keys from MailGun and sendGrid
+
+The program uses an <strong>.env file</strong> please modify the values using your own port #, domain name and API keys from MailGun and sendGrid
+
+
 
 To Install, download or clone repo and run npm install to install the necessary libraries.
 
