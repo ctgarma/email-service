@@ -26,19 +26,6 @@ app.get('/', function (req, res) {
     res.status(200).send('api is online');
 });
 
-app.post('/send', function (req, res) {
-
-    var email = _.pick(req.body, ['subject', 'body', 'from', 'to', 'cc', 'bcc']);
-    useSendGrid(email.subject, email.body, email.from, email.to, email.cc, email.bcc)
-        .then((result) => {
-            console.log('success using SendGrid');
-            res.status(200).send('email sent');
-        }).catch((e) => {
-            console.log('result failed:', e);
-            res.status('404').send('sending failed');
-        });
-});
-
 app.post('/email', function (req, res) {
     var email = _.pick(req.body, ['email', 'subject', 'body', 'from', 'to', 'cc', 'bcc']);
     useMailGun(email.subject, email.body, email.from, email.to, email.cc, email.bcc)
