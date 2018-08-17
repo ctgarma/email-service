@@ -12,10 +12,16 @@ The program uses an <strong>.env file</strong> please modify the values using yo
 
 
 
-To Install, download or clone repo and run npm install to install the necessary libraries.
+To Install, download or clone repo and 
 
-run npm start to start the program
+run <strong>npm install</strong> to install the necessary libraries.
 
-run npm test to run the test suites
+run <strong>npm start</strong> 
+
+to start the program
+
+run <strong>npm test</strong> 
+
+to run the test suites
 
 
