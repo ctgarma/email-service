@@ -8,7 +8,7 @@ It uses Mailgun and sendGrid to send out the emails. It can be used in tandem wi
 
 It uses Mocha for the test framework. 
 
-The program uses an <strong>.env file</strong> please modify the values using your own port #, domain name and API keys from MailGun and sendGrid
+The program uses an <strong>.env file</strong>. Please modify the values using your own port #, domain name and API keys from MailGun and sendGrid
 
 
 
