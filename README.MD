@@ -2,7 +2,7 @@
 # Email Service - A Restful API
 
 
-An email service built using expressjs. It uses Mailgun and sendGrid to send out the emails. It can be used in tandem with my email-client repo.
+An email service built using expressjs. It uses Mailgun and sendGrid to send out the emails. It can be used in tandem with my <a href="https://github.com/ctgarma/email-client">email-client</a>.
 
 
 The program uses an <strong>.env file</strong> please modify the values using your own port #, domain name and API keys from MailGun and sendGrid
